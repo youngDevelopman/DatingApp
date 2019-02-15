@@ -24,7 +24,7 @@ namespace DatingApp.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("MyProperty");
+                    b.ToTable("Values");
                 });
 #pragma warning restore 612, 618
         }
